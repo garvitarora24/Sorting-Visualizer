@@ -48,7 +48,7 @@ function playNote(freq){
 // init()
 let toggle=0;
 function init(){
-    toggle=1;
+   
     for (let i = 0; i < n; i++) {
         array[i]=Math.random();
     }
@@ -61,9 +61,7 @@ function init(){
 
 
 function play1(){
-    if(toggle==1){
-        return;
-    }
+   
     const copy=[...array];
     const moves=bubbleSort(copy);
     // showBars();
@@ -71,9 +69,7 @@ function play1(){
 }
 
 function play2(){
-    if(toggle==1){
-        return;
-    }
+   
     const copy=[...array];
     const moves=insertionSort(copy)
     // showBars();
@@ -81,9 +77,7 @@ function play2(){
 }
 
 function play3(){
-    if(toggle==1){
-        return;
-    }
+    
     const copy=[...array];
     const moves=mergeSort(copy)
     // showBars();
