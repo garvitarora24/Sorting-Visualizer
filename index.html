@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1> 🎵Sorting visualizer 🎵</h1>
+    </div>
+    <!-- <canvas id="myCanvas"></canvas> -->
+    <div id="container"></div>
+
+    <hr>
+    <div class="buttons-controls">
+        <button type="button" onclick="init()">RESET</button>
+        <button type="button" onclick="play1()">BUBBLE SORT</button>
+        <button type="button" onclick="play2()">INSERTION SORT</button>
+        <button type="button" onclick="play2()">MERGE SORT</button>
+    </div>
+
+    <div class="range-bars">
+        <label for="speed">speed</label>
+        <input type="range" min="1" max="20" value="5" name="speed" id="speed">
+
+        <label for="size">size of array</label>
+        <input type="range" min="1" max="50" value="25"  name="size" id="size">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    font-family: monospace;
+}
+#container{
+    height: 300px;
+    width: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.bar{
+    width: 20px;
+    background-color: greenyellow;
+    margin: 2px;
+}
+
+.heading{
+    color: black;
+    background-color:greenyellow;
+}
+
+.buttons-controls button{
+    background-color:greenyellow;
+    padding: 3vh;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 2vh;
+    /* font-weight: bolder; */
+    
+}
+
+.buttons-controls button:hover{
+    background-color:white;
+    color: green;
+    font-weight: bolder;
+    font-size: 2vh;
+}
+
+.range-bars{
+    color: white;
+    font-size: 2vh;
+    
+}
